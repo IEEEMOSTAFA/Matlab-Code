@@ -11,6 +11,8 @@ for i=1:n
 end
 
 plot(x,y),axis([0,n,-2,2]);
+xlabel('Time');
+ylabel('Amplitude');
 title('Polar NRZ L');
 
 
